@@ -43,7 +43,7 @@ echoserver.sin_port = htons(17); 			/* server port */
 /* Convert IPv4 and IPv6 addresses from text to binary form*/
     	if(inet_pton(AF_INET, argv[1], & echoserver.sin_addr.s_addr)<=0) 
    	{
-        printf("\Direccion no correcta \n");
+        printf("Direccion no correcta \n");
         return -1;
 
 
