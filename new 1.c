@@ -45,6 +45,7 @@ echoserver.sin_port = htons(17); 			/* server port */
    	{
         printf("Direccion no correcta \n");
         return -1;
+        }
 
 
 
